@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: black;
+  color: white;
+  max-width: 1300px;
+  margin: 10px auto;
+  opacity: 0.9;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 95%;
+  z-index: -1;
+  background-color: blue;
+  padding-top: 1px;
+}
+
+.right_head{
+  width: 20%;
+  border-right: 1px solid white;
+  margin-right: 15px;
+  padding-top: 7px;
+  /* margin-bottom: 100px; */
+}
+.right_head img {
+  width: 45px;
+}
+.middle_head{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.middle_head{
+  border-right: 1px solid white;
+  margin-right: 15px;
+  align-items: center;
+  padding: px;
+  padding-right: 15px;
+}
+
+.end_head{
+  background-color: rgb(42, 41, 41);
+  padding: 8px;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-left: 20px;
+}
+.end_head img{
+  width: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.end_head p{
+  display: inline;
+  color: rgb(126, 124, 124);
+  font-size: 15px;
+}
+main{
+  display: flex;
+  margin-top: 47px;
+}
+.right_body{
+  border-right: 1px solid white;
+  margin-right: 15px;
+  width: 18.3%;
+  /* opacity: 0.9; */
+  /* background-color: blue; */
+}
+.right_body img{
+  width: 25px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.right_body .sidebar{
+display: flex;
+align-items: center;
+}
+.right_body button{
+background-color: rgb(20, 84, 194);
+color: white;
+text-align: center;
+width: 95%;
+padding: 15px;
+border-radius: 30px;
+margin-top: 40px;
+}
+
+.middle_body{
+  width: 54.9%;
+  border-right: 1px solid white;
+}
+.profile .happen{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.profile #profile{
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.profile .happen p{
+font-size: 18px;
+opacity: 0.4;
+}
+.import{
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.import button{
+  margin-right: 20px;
+  background-color: rgb(20, 84, 194);
+  border-radius: 50px;
+  padding:5px 20px;
+  margin-bottom: 20px;
+}
+.middlebar .show_tweet{
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.middlebar a .show_tweet{
+  color: rgb(20, 84, 194);
+  text-decoration: none;
+}
+.endbar{
+  background-color: rgb(42, 41, 41);
+  margin: 30px auto;
+  height: 500px;
+  padding: 15px;
+  width: 250px;
+}
+
+.trendnav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.trendnav p{
+  opacity: 0.4;
+  font-size: 13px
+}
+.trendnav h4{
+  margin-top: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  header .hidden_on_mobile {
+    display: none;
+  }
+}
